@@ -1,0 +1,28 @@
+/*
+Theme Name: OPLM
+Version: 1.0
+Description: Prueba tecnica para vacante de Mijo Brands
+Author: Osvaldo Mora   
+Author URI: https://github.com/osvaldomoraa
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* 
+Defaults
+*/
+
+:root {
+    --brand-blue-green: #7ab5b0;
+    --brand-light-green: #eff8e9;
+    --brand-gray: #6d6e6e;
+    --brand-green: #8fb996;
+    --brand-blue: #4d8a9d;
+    --main-font-family: 'Libre Franklin', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

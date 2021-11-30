@@ -1,0 +1,238 @@
+body {
+    font-family: var(--main-font-family);
+}
+
+.nav-logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.brand-logo {
+    height: 40px;
+}
+
+.hero {
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hero-title {
+    font-size: 35px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.hero-text {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 300;
+    width: 45%;
+    text-align: justify;
+}
+
+.form-section {
+    margin-top: 50px;
+}
+
+.search-col {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.search-form input, .search-form select {
+    border-radius: 8px;
+    font-size: 14px;
+    border-color: #c0c0c0;
+    color: #c0c0c0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 1px 2px #00000026;
+}
+
+.search-form input:focus, .search-form select:focus {
+    color: #c0c0c0;
+    border-color: #d5d5d5;
+    box-shadow: 0px 1px 7px #00000026;
+}
+
+.search-form input:hover, .search-form select:hover {
+    color: #d5d5d5;
+    border-color: #d5d5d5;
+    box-shadow: 0px 1px 7px #00000026;
+}
+
+.search-form input::placeholder {
+    color: #d5d5d5;
+}
+
+.search-form button {
+    background-color: var(--brand-blue-green);
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.search-form button:hover {
+    background-color: var(--brand-green);
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.posts-section {
+    margin-top: 50px;
+}
+
+.post-card {
+    border-radius: 10px;
+    border-style: none;
+    color: var(--brand-gray);
+    background-color: var(--brand-light-green);
+}
+
+.post-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 100%;
+}
+
+.post-card .card-body {
+    padding: 30px;
+}
+
+.post-icon svg {
+    width: 16px;
+    height: 16px;
+    color: #a1c08a;
+}
+
+.post-title {
+    font-size: 28px;
+    font-weight: 400;
+    padding-right: 30px;
+}
+
+.post-author-title {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.post-author-box {
+    margin-top: 15px;
+}
+
+.post-author-img {
+    width: 20px;
+    height: 20px;
+}
+
+.post-author-name {
+    margin-left: 5px;
+}
+
+.post-tags-box {
+    margin-top: 15px;
+}
+
+.post-tag {
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.pagination {
+    margin-top: 50px;
+}
+
+.pagination-nav-button {
+    font-size: 16px;
+    color: var(--brand-blue-green);
+    border-color: var(--brand-blue-green);
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: 500;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+.pagination-nav-button:hover {
+    background-color: var(--brand-blue-green);
+    color: #FFFFFF;
+    border-color: var(--brand-blue-green);
+}
+
+.footer-box {
+    margin-top: 50px;
+    background-color: var(--brand-blue-green);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer-accent {
+    font-weight: 500;
+}
+
+.footer-link {
+    color: #FFFFFF;
+}
+
+.footer-link:hover {
+    color: var(--brand-light-green);
+}
+
+@media (max-width: 1399px) {
+    .hero-text {
+        width: 60%;
+    }    
+}
+
+@media (max-width: 1199px) {
+    .hero-title {
+        font-size: 30px;
+    }
+    .post-title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero-text {
+        width: unset;
+    }
+    .search-col {
+        margin-bottom: 15px;
+    }
+    .search-form button {
+        width: 100%;
+        height: 100%;
+    }
+    .post-card .card-body {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 575px) { 
+    .form-section, .posts-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "amitts/bridi-theme",
+    "description": "Un theme a medida para Bienestar Psicosocial UAM-I",
+    "type": "project",
+    "license": "GPL 2",
+    "authors": [
+        {
+            "name": "Osvaldo Mora",
+            "email": "osvaldo.moraa@yahoo.com.mx"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+		"composer/installers": "v1.0.12",
+		"cmb2/cmb2": "dev-master"
+    },
+    "autoload": {
+		"files": ["vendor/cmb2/init.php"]
+    },
+    "extra": {
+        "installer-paths": {
+            "vendor/{$name}/": ["cmb2/cmb2"]
+        }
+    }
+}
